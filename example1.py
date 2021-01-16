@@ -70,6 +70,5 @@ if __name__ == '__main__':
     for site in sites:
         print(" Floor Name: {}".format(site["name"]))
         print("  ID: {}".format(site["id"]))
-        print(" NameSpace: {}".format(site["additionalInfo"]["namespace"]))
         print("")
    
